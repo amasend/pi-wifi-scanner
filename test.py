@@ -4,7 +4,7 @@ class Cars():
         self.year = year
 
     def info(self) -> str:
-        result = ("Nazwa: "+self.name+"\nRok: "+str(self.year))
+        result = f'Nazwa: '+self.name+'\nRok: '+str(self.year)
         return result
 
     def get_name(self) -> None:
