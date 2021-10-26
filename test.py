@@ -10,8 +10,14 @@ class Cars():
     def get_name(self) -> None:
         print(self.name)
 
+def welcomeUser(user: str):
+    """
+    The function returns the user's greeting
+    welcomeUser(userName)
+    """
+    message = f"Welcome {user}!"
+    return message
 
-car_one = Cars("BWM", 2021)
-print(car_one.info())
+print(welcomeUser("mbism"))
 
-car_one.get_name()
+asda
