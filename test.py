@@ -15,3 +15,6 @@ car_one = Cars("BWM", 2021)
 print(car_one.info())
 
 car_one.get_name()
+
+
+# Tu są jakieś nowe zmiany
